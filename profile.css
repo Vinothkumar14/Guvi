@@ -1,0 +1,73 @@
+.Nav_all {
+    /* background-color: rgb(235, 171, 171); */
+    background: linear-gradient(45deg, rgb(39, 48, 130),rgb(77, 104, 163));
+    height: 20%;
+}
+.profile_name {
+    content: "";
+    background: linear-gradient(45deg, rgb(77, 104, 163), rgb(39, 48, 130));
+    width: 16%;
+    height:100vh;
+
+}
+
+.update_form {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(45deg, rgb(77, 104, 163), rgb(39, 48, 130));
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 19%;
+    margin-top: -47%;
+}
+
+.part1 {
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mb-3 {
+    margin-bottom: 15px;
+}
+.welcome-message {
+    background: linear-gradient(45deg, pink, red);
+    -webkit-background-clip: text; /* Apply gradient to text */
+    color: transparent; /* Make the text transparent */
+    font-weight: bold;
+    display: inline-block; /* Ensure the gradient covers the entire text */
+    padding: 5px 10px; /* Add padding for better visibility */
+    border-radius: 5px; /* Add rounded corners */
+}
+.navi_1
+{
+    margin-left: 80%;
+}
+
+.navi_1 {
+    /* background-color: #333; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 50px;
+}
+
+.btn-link {
+    padding: 0; /* Remove padding from the button */
+}
+
+.btn-link a {
+    color: #fff; /* Change link color to white */
+    text-decoration: none; /* Remove underlines */
+    transition: color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* Initial box shadow (none) */
+}
+
+.btn-link:hover a {
+    color: #ffcc00; /* Change link color on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+}
